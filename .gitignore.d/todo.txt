@@ -1,8 +1,4 @@
 *
-!.config
-!.config/mr
-!.config/mr/config.d
-!.config/mr/config.d/todo.txt
 !.gitignore.d
 !.gitignore.d/todo.txt
 !.todo
