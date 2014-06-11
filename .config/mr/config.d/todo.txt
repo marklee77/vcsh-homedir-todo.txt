@@ -1,0 +1,2 @@
+[Todo]
+checkout = git clone git@fortawesome.org:todo Todo
