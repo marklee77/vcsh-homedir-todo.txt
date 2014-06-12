@@ -6,5 +6,5 @@ push     = vcsh todo.txt push
 status   = vcsh todo.txt status
 gc       = vcsh todo.txt gc
 
-#[Todo]
-#checkout = git clone git@fortawesome.org:todo Todo
+[Todo]
+checkout = git clone git@fortawesome.org:todo Todo
