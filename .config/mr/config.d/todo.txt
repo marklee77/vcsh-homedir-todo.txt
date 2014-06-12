@@ -1,10 +1,5 @@
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/todo.txt.git]
 checkout = vcsh clone git@fortawesome.org:vcsh-homedir-todo.txt.git todo.txt
-commit   = vcsh todo.txt commit -a
-update   = vcsh todo.txt pull
-push     = vcsh todo.txt push
-status   = vcsh todo.txt status
-gc       = vcsh todo.txt gc
 
 [Todo]
 checkout = git clone git@fortawesome.org:todo Todo
