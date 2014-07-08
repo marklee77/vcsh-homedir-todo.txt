@@ -1,5 +1,5 @@
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/todo.txt.git]
-checkout = vcsh clone git@fortawesome.org:vcsh-homedir-todo.txt.git todo.txt
+checkout = vcsh clone mark@squid:repos/vcsh-homedir-todo.txt.git todo.txt
 
 [Todo]
-checkout = git clone git@fortawesome.org:todo Todo
+checkout = git clone mark@squid:repos/todo.git Todo
