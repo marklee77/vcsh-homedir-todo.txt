@@ -1,5 +1,10 @@
 [${XDG_CONFIG_HOME:-$HOME/.config}/vcsh/repo.d/todo.txt.git]
 checkout = vcsh clone git@stillwell.me:mark/vcsh-homedir-todo.txt.git todo.txt
+           vcsh academia set-url --add --push git@stillwell.me:mark/vcsh-homedir-todo.txt.git
+           vcsh academia set-url --add --push git@bitbucket.org:marklee77/vcsh-homedir-todo.txt.git
 
 [${HOME}/Todo]
 checkout = git clone git@stillwell.me:mark/todo.git Todo
+           git remote set-url --add --push git@stillwell.me:mark/todo.txt.git
+           git remote set-url --add --push git@bitbucket.org:marklee77/todo.txt.git
+
